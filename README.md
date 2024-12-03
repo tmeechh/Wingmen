@@ -51,6 +51,8 @@ Ensure the following are installed on your system:
 
 The application is deployed on Vercel. Visit the live version here: Live App Link (replace with actual link).
 
+```
+
 ### Folder Structure
 
 src/
