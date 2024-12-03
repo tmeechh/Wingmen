@@ -30,7 +30,7 @@ Ensure the following are installed on your system:
 1. **Clone the repository**:
 
 ```bash
-  git clone [<repository-url>](https://github.com/tmeechh/Wingmen)
+  git clone https://github.com/tmeechh/Wingmen.
 ```
 
 2. **Install dependencies**:
