@@ -31,16 +31,25 @@ Ensure the following are installed on your system:
 
 ```bash
   git clone <repository-url>
+```
 
 
 2. **Install dependencies**:
+   ```bash
    npm install
 
+
+
+
 2. **Start the development server**:
+   ```bash
    npm run dev
 
+
+
 3. **Open the application in your browser: Navigate to**:
-   http://localhost:5173
+  ```bash
+ http://localhost:5173
 
 ### Deployment
 
