@@ -31,56 +31,58 @@ Ensure the following are installed on your system:
 
 ```bash
   git clone <repository-url>
-
 ```
 
-2. **Navigate to the project directory**:
-
-```cd <project-folder>
-
-```
-
-3. **Install dependencies**:
+2. **Install dependencies**:
+   ```bash
    npm install
 
-4. **Start the development server**:
+3. **Start the development server**:
+   ```bash
    npm run dev
 
-5. **Open the application in your browser: Navigate to**:
-   http://localhost:5173
+3. **Open the application in your browser: Navigate to**:
+  ```bash
+ http://localhost:5173
+
+```
 
 ### Deployment
 
 The application is deployed on Vercel. Visit the live version here: Live App Link [(replace with actual link)](https://wingmenstore.vercel.app/).
 
+```
+
 ### Folder Structure
 
 src/
-├──  __mocks__  # Contains custom Jest mocks for modules like static assets.
-├── assets/ # Static assets like images.
-├── components/ # Reusable components.
-├── pages/ # Page components for routing.
-├── fonts/ # fonts used in the project.
-├── store/ # Zustand state management.
-├── tests/ # Unit tests for components.
-├── types/ # TypeScript types.
-├── App.tsx # Main app component.
-├── main.tsx # Entry point.
-├── index.css # Tailwind CSS styles.
+-├──  __mocks__  # Contains custom Jest mocks for modules like static assets.
+-├── assets/ # Static assets like images.
+-├── components/ # Reusable components.
+-├── pages/ # Page components for routing.
+-├── fonts/ # fonts used in the project.
+-├── store/ # Zustand state management.
+-├── tests/ # Unit tests for components.
+-├── types/ # TypeScript types.
+-├── App.tsx # Main app component.
+-├── main.tsx # Entry point.
+-├── index.css # Tailwind CSS styles.
 
 #### `__mocks__`
-This folder contains custom mock implementations for Jest. It is particularly useful for testing files or modules that Jest cannot process natively, such as static assets (e.g., images). For example, the `fileMock.ts` file in this folder is used to mock image imports during testing.
+This folder contains custom mock implementations for Jest. It is particularly useful for testing
+files or modules that Jest cannot process natively, such as static assets (e.g., images). For example,
+ the `fileMock.ts` file in this folder is used to mock image imports during testing.
 
 
 ### To-Do List
 
-✅Responsive grid and list views.
-✅Live search bar.
-✅Pagination.
-✅Sorting by price/rating.
-✅Unit tests for critical components.
-✅Dark mode support.
-✅Contributing
+-✅Responsive grid and list views.
+-✅Live search bar.
+-✅Pagination.
+-✅Sorting by price/rating.
+-✅Unit tests for critical components.
+-✅Dark mode support.
+-✅Contributing
 
 ### Contributions are welcome!
 
@@ -90,6 +92,6 @@ Feel free to fork the repository and submit pull requests. For issues or suggest
 
 This project is licensed under the MIT License.
 
-```
 
-```
+
+
