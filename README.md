@@ -30,7 +30,7 @@ Ensure the following are installed on your system:
 1. **Clone the repository**:
 
 ```bash
-  git clone <repository-url>
+  git clone [<repository-url>](https://github.com/tmeechh/Wingmen)
 ```
 
 2. **Install dependencies**:
@@ -49,7 +49,7 @@ Ensure the following are installed on your system:
 
 ### Deployment
 
-The application is deployed on Vercel. Visit the live version here: Live App Link [(replace with actual link)](https://wingmenstore.vercel.app/).
+The application is deployed on Vercel. Visit the live version here: Live App Link [(wingmen)](https://wingmenstore.vercel.app/).
 
 ```
 
