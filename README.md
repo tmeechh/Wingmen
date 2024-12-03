@@ -69,7 +69,9 @@ src/
 -├── index.css # Tailwind CSS styles.
 
 #### `__mocks__`
-This folder contains custom mock implementations for Jest. It is particularly useful for testing files or modules that Jest cannot process natively, such as static assets (e.g., images). For example, the `fileMock.ts` file in this folder is used to mock image imports during testing.
+This folder contains custom mock implementations for Jest. It is particularly useful for testing
+files or modules that Jest cannot process natively, such as static assets (e.g., images). For example,
+ the `fileMock.ts` file in this folder is used to mock image imports during testing.
 
 
 ### To-Do List
