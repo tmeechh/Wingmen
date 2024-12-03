@@ -51,7 +51,7 @@ Ensure the following are installed on your system:
 
 ### Deployment
 
-The application is deployed on Vercel. Visit the live version here: Live App Link (replace with actual link).
+The application is deployed on Vercel. Visit the live version here: Live App Link [(replace with actual link)](https://wingmenstore.vercel.app/).
 
 ### Folder Structure
 
