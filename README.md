@@ -28,10 +28,8 @@ Ensure the following are installed on your system:
 ### Installation
 
 1. **Clone the repository**:
-
-```bash
+   ```bash
   git clone https://github.com/tmeechh/Wingmen.
-```
 
 2. **Install dependencies**:
    ```bash
@@ -41,11 +39,20 @@ Ensure the following are installed on your system:
    ```bash
    npm run dev
 
-3. **Open the application in your browser: Navigate to**:
+4. **Open the application in your browser: Navigate to**:
   ```bash
  http://localhost:5173
 
 ```
+
+### Running Tests
+To ensure the reliability of the application, unit tests have been implemented for critical components. To run the tests, execute the following command:
+ ```bash
+npm test
+ ```
+This will start Jest, run all the tests, and display the results in your terminal.
+
+
 
 ### Deployment
 
@@ -73,8 +80,8 @@ This folder contains custom mock implementations for Jest. It is particularly us
 files or modules that Jest cannot process natively, such as static assets (e.g., images). For example,
  the `fileMock.ts` file in this folder is used to mock image imports during testing.
 
-```
-### To-Do List
+
+ To-Do List
 
 -✅Responsive grid and list views.
 -✅Live search bar.
@@ -84,7 +91,7 @@ files or modules that Jest cannot process natively, such as static assets (e.g.,
 -✅Dark mode support.
 -✅Contributing
 
-
+```
 ### Contributions are welcome!
 
 Feel free to fork the repository and submit pull requests. For issues or suggestions, please open a ticket.
