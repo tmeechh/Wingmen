@@ -43,7 +43,7 @@ Ensure the following are installed on your system:
    ```bash
    http://localhost:5173
 
-```
+
 
 ### Running Tests
 To ensure the reliability of the application, unit tests have been implemented for critical components. To run the tests, execute the following command:
