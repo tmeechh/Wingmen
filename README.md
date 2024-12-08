@@ -53,7 +53,7 @@ The application is deployed on Vercel. Visit the live version here: Live App Lin
 
 ```
 
-### Folder Structure
+ Folder Structure
 
 src/
 -├──  __mocks__  # Contains custom Jest mocks for modules like static assets.
@@ -68,12 +68,12 @@ src/
 -├── main.tsx # Entry point.
 -├── index.css # Tailwind CSS styles.
 
-#### `__mocks__`
+ `__mocks__`
 This folder contains custom mock implementations for Jest. It is particularly useful for testing
 files or modules that Jest cannot process natively, such as static assets (e.g., images). For example,
  the `fileMock.ts` file in this folder is used to mock image imports during testing.
 
-
+```
 ### To-Do List
 
 -✅Responsive grid and list views.
@@ -83,6 +83,7 @@ files or modules that Jest cannot process natively, such as static assets (e.g.,
 -✅Unit tests for critical components.
 -✅Dark mode support.
 -✅Contributing
+
 
 ### Contributions are welcome!
 
