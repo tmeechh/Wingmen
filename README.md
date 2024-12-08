@@ -43,8 +43,6 @@ Ensure the following are installed on your system:
    ```bash
    http://localhost:5173
 
-
-
 ### Running Tests
 To ensure the reliability of the application, unit tests have been implemented for critical components. To run the tests, execute the following command:
  ```bash
@@ -92,6 +90,7 @@ files or modules that Jest cannot process natively, such as static assets (e.g.,
 -✅Contributing
 
 ```
+
 ### Contributions are welcome!
 
 Feel free to fork the repository and submit pull requests. For issues or suggestions, please open a ticket.
